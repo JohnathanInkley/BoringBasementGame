@@ -3,12 +3,12 @@ BoringBasementGame is a simple program I've made to test my knowledge of classes
 
 The map is initialised by first reading in a map of the form
 
- SRRRF
-S0E000
-RW0SE0
-R00N00
-R0W00E
-F000W0
+ SRRRF\n
+S0E000\n
+RW0SE0\n
+R00N00\n
+R0W00E\n
+F000W0\n
 
 The top line and first column represent the rooms, with S being start, F being finish and R being regular types of rooms. Each row says, for a given room, what doors there are and where do they lead. For example the first row has a single E, meaning the start room only has one door, and that door is to the east and leads to the second room.
 
